@@ -1,0 +1,198 @@
+@import 'reset';
+@import 'base';
+@import 'colors';
+
+// nav //
+
+.navbar-brand {
+	font-size: 2.2rem;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+
+.nav-link {
+	font-size: 1.3rem;
+	font-weight: 700;
+}
+
+.navbar i {
+	font-size: 2.2rem;
+
+	&:hover {
+		color: $accent;
+	}
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: $black;
+}
+
+// hero //
+
+.hero-img {
+	width: 100%;
+	height: 525px;
+	position: relative;
+	background-image: url(../img/pet-clinic-interior.jpg);
+	// Photo by Arseny Togulev on Unsplash //
+	background-position: center 42.5%;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	h1 {
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 3.2rem;
+		letter-spacing: 4px;
+	}
+}
+
+.hero-shadow {
+	width: 100%;
+	height: 30%;
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+// aboutus //
+
+.aboutus {
+	img {
+		border-radius: 10px;
+	}
+	.cta {
+		width: 60ch;
+		font-style: italic;
+	}
+
+	a:hover {
+		background-color: $accent;
+	}
+
+	strong {
+		color: $accent;
+	}
+}
+
+// whyus //
+
+.whyus {
+	i {
+		font-size: 2rem;
+	}
+
+	&-left p:nth-of-type(1) {
+		font-size: 1.4rem;
+		line-height: 1.8;
+		text-align: justify;
+		hyphens: auto;
+	}
+}
+
+// offer //
+
+.accordion {
+	&-button {
+		background-color: $light;
+		font-size: 1.2rem;
+
+		&:focus {
+			box-shadow: none;
+		}
+
+		&:not(.collapsed) {
+			color: $primary;
+			background-color: $accent;
+		}
+	}
+
+	&-item {
+		background-color: $primary;
+	}
+}
+
+.accordion-button:not(.collapsed)::after {
+	background-image: url(../img/chevron-down.svg);
+	transform: scale(1.6) rotate(180deg);
+}
+
+// shop //
+
+.shop {
+	height: 500px;
+	position: relative;
+	background-image: url(../img/dog-in-front-of-a-shop.jpg);
+	// Photo by Peter Plashkin on Unsplash //
+	background-size: cover;
+	background-position: center 60%;
+	background-attachment: fixed;
+
+	&-shadow {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
+	&-container {
+		position: relative;
+		z-index: 1;
+	}
+
+	ul {
+		list-style: none;
+	}
+}
+
+// team //
+
+.team {
+	.name {
+		font-weight: bold;
+		font-size: 1.4rem;
+	}
+
+	.accent {
+		color: $accent;
+		font-weight: bold;
+	}
+
+	img {
+		border-radius: 10px;
+		background-size: cover;
+	}
+
+	ul {
+		list-style: none;
+		padding-left: 0;
+	}
+
+	i {
+		color: $accent;
+	}
+}
+
+// contact //
+
+.contact {
+	h3 {
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 1.3rem;
+	}
+
+	p {
+		margin: 0;
+		font-size: 1rem;
+	}
+
+	iframe {
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+	}
+}
