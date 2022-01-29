@@ -31,7 +31,7 @@
                     <a class="nav-link" href="#contact">Kontakt</a>
                 </div>
                 <div class="navbar-nav ms-auto">
-                    <a class="nav-link ps-5" href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a class="nav-link p-0 m-0 ms-5" href="#"><i class="fab fa-facebook-square"></i></a>
                 </div>
             </div>
         </div>
@@ -59,7 +59,6 @@
                     <div class=" d-flex justify-content-between align-items-center">
                         <p class="cta m-0">Z uwagi na możliwości techniczne oraz chęć zapewnienia jak najwyższej jakości usług, przyjmujemy <strong>wyłącznie</strong> pacjentów wcześniej umówionych.</p>
                         <a class="btn btn-outline-secondary ms-4" href="#contact">Zadzwoń do nas!</a>
-
                     </div>
                 </div>
             </div>
@@ -200,7 +199,7 @@
 
     <section class="shop py-5 text-white" id="shop">
         <div class="shop-shadow"></div>
-        <div class="container shop-container text-center">
+        <div class="container h-100 shop-container text-center">
             <h2 class="mb-5 ">sklep zoologiczny</h2>
             <p>Oprócz gabinetu prowadzimy również sklep dla zwięrząt</p>
             <ul>
@@ -220,10 +219,10 @@
         <div class="container">
             <h2 class="mb-5 text-center">nasz zespół</h2>
             <div class="row">
-                <div class="img mb-4 mb-md-0 col-md-4 text-center d-flex align-items-center justify-content-center">
+                <div class="img mb-4 mb-lg-0 pe-xl-4 pe-xxl-5 col-lg-4 col-xl-3 text-center d-flex align-items-center justify-content-center">
                     <img src="img/hanna-lisiecka.jpg" class="img-fluid" alt="Doktor Hanna Lisiecka">
                 </div>
-                <div class="col-md-8">
+                <div class="col-lg-8 col-xl-9 d-flex flex-column justify-content-center">
                     <p><span class="name">Lek. wet. Hanna Lisiecka</span></p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, illum quas! Obcaecati laudantium necessitatibus quisquam nesciunt est animi consequatur id vitae fugiat nulla iusto, placeat corrupti molestias autem quam quidem odio perspiciatis ex pariatur sunt.</p>
                     <p>
@@ -237,13 +236,46 @@
                         <li><i class="fas fa-check"></i> Warsztaty Diagnostyczne- Badania Laboratoryjne (Warszawa 2007)</li>
                         <li><i class="fas fa-check"></i> Problemy Endokrynologiczne u Psów i Kotów (Warszawa 2006, 2007)</li>
                     </ul>
-                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="contact py-5 bg-secondary text-white" id="contact">
+
+    <section class="testimonials py-5 bg-secondary text-white">
+        <div class="container">
+            <h2 class="mb-5 text-center">opinie</h2>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active text-left px-4">
+                        <p class="display-6 m-auto w-75 my-3"><i class="fas fa-quote-right"></i></p>
+                        <p class="w-75 m-auto my-3 quote">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, accusamus corrupti fuga eligendi suscipit ullam placeat porro architecto voluptate quasi at pariatur cupiditate veniam exercitationem.</p>
+                        <p class="w-75 m-auto">- karolina, opinie google</p>
+                    </div>
+                    <div class="carousel-item text-left px-4">
+                        <p class="display-6 m-auto w-75 my-3"><i class="fas fa-quote-right"></i></p>
+                        <p class="w-75 m-auto my-3 quote">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, accusamus corrupti fuga eligendi suscipit ullam placeat porro architecto voluptate quasi at pariatur cupiditate veniam exercitationem.</p>
+                        <p class="w-75 m-auto">- ania, opinie google</p>
+                    </div>
+                    <div class="carousel-item text-left px-4">
+                        <p class="display-6 m-auto w-75 my-3"><i class="fas fa-quote-right"></i></p>
+                        <p class="w-75 m-auto my-3 quote">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, accusamus corrupti fuga eligendi suscipit ullam placeat porro architecto voluptate quasi at pariatur cupiditate veniam exercitationem. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam corrupti facilis quis voluptatem voluptates quo. Tempore aliquid libero commodi nemo.</p>
+                        <p class="w-75 m-auto">- maciek, opinie google</p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact py-5" id="contact">
         <div class="container">
             <h2 class="mb-5 text-center">kontakt</h2>
             <div class="row">
@@ -261,7 +293,7 @@
                     <p>hanna.lisiecka@gmail.com</p>
                 </div>
                 <div class="col-md-8 col-lg-9">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4731.504354675722!2d16.85016350091438!3d52.38721081929876!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47044517558d021f%3A0x71c33ae3906b30e0!2sGabinet%20Weterynaryjny%20%22Kobra%22!5e0!3m2!1sen!2spl!4v1642873820173!5m2!1sen!2spl" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4338.753187163615!2d16.854290574181245!3d52.38777392951947!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47044517558d021f%3A0x71c33ae3906b30e0!2sGabinet%20Weterynaryjny%20%22Kobra%22!5e0!3m2!1spl!2spl!4v1643459515223!5m2!1spl!2spl" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
         </div>
