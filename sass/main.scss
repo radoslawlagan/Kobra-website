@@ -12,7 +12,7 @@
 
 .nav-link {
 	font-size: 1.3rem;
-	font-weight: 700;
+	text-transform: uppercase;
 }
 
 .navbar i {
@@ -31,7 +31,7 @@
 
 .hero-img {
 	width: 100%;
-	height: 525px;
+	height: 600px;
 	position: relative;
 	background-image: url(../img/pet-clinic-interior.jpg);
 	// Photo by Arseny Togulev on Unsplash //
@@ -60,6 +60,7 @@
 
 .aboutus {
 	img {
+		width: 100%;
 		border-radius: 10px;
 	}
 	.cta {
@@ -135,7 +136,7 @@
 		position: absolute;
 		top: 0;
 		left: 0;
-		background-color: rgba(0, 0, 0, 0.5);
+		background-color: rgba(0, 0, 0, 0.55);
 	}
 
 	&-container {
@@ -174,6 +175,12 @@
 	i {
 		color: $accent;
 	}
+}
+
+// testimonials //
+
+.carousel-item {
+	height: 250px;
 }
 
 // contact //
