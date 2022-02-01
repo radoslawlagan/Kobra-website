@@ -6,7 +6,7 @@ This is a website I made for a veterinary clinic. The main concept was to create
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot2.jpg)
 
 ### Links
 
